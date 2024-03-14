@@ -28,23 +28,29 @@
     height: 100vh;
     width: 100%;
     background-color: #222;
-
+    overflow: auto;
 }
 
 .box-photo {
     padding-top: 7%;
     padding-left: 5%;
     padding-right: 5%;
+    padding-bottom: 5%;
+    height: 100%;
+
+
+
 }
 
 .photo {
     position: relative;
-    margin-top: 1%;
+    margin-top: 1.5vh;
+    width: 300px;
+    max-height: 200px;
 }
 
 .photo img {
-    height: 200px;
-
+    height: 100%;
 }
 
 .nome {
@@ -70,7 +76,9 @@ nav {
 
 .big {
     padding: 0 2vw;
-    transform: scale(3);
+    height: 100%;
+    width: 4vw;
+    transform: scale(2);
 }
 
 .red {
