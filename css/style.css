@@ -25,7 +25,7 @@
 /* Main */
 
 .container {
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     background-color: #222;
     overflow: auto;
@@ -36,10 +36,6 @@
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 5%;
-    height: 100%;
-
-
-
 }
 
 .photo {
@@ -64,14 +60,14 @@
 }
 
 nav {
-    height: 10%;
+    height: 10vh;
     width: 100%;
     background-color: #444;
     color: white;
     z-index: 1;
-    position: fixed;
-    bottom: 0;
-    left: 0;
+    position: relative;
+    z-index: 1;
+
 }
 
 .big {
@@ -83,6 +79,7 @@ nav {
 
 .red {
     color: red;
+    margin-right: 3vw;
 }
 
 .green {
@@ -92,7 +89,7 @@ nav {
 .speaker {
     position: absolute;
     top: 1%;
-    right: 0;
+    right: 1%;
     color: white;
     padding: 5px;
     background-color: rgb(78, 78, 78);
